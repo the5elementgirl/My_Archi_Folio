@@ -8,9 +8,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Jeshwanth Shiva Sai - Developer, Architect, and YouTuber",
+    title: "Ramya | Architecture Folio",
     description: `Get in touch with me to know more.`,
-    image: "https://avatars.githubusercontent.com/u/63970360?v=4",
+    image: "https://avatars.githubusercontent.com/u/252348423?v=4",
     type: "website",
     ...customMeta,
   };
@@ -29,15 +29,15 @@ export default function ContainerBlock({ children, ...customMeta }) {
           href={`https://yourwebsite.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Jeshwanth Shiva Sai" />
+        <meta property="og:site_name" content="Ramya G" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@jeshwanth_ss" />
-        <meta name="twitter:title" content={meta.title} />
-        <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
+        {/* <meta name="twitter:card" content="summary_large_image" /> */}
+        {/* <meta name="twitter:site" content="@jeshwanth_ss" /> */}
+        {/* <meta name="twitter:title" content={meta.title} /> */}
+        {/* <meta name="twitter:description" content={meta.description} /> */}
+        {/* <meta name="twitter:image" content={meta.image} /> */}
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
