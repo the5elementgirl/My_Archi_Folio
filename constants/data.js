@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "jeshwanthshivasai",
   name: "Ramya | ರಮ್ಯಾ",
   // kannada: "",
-  designation: "Architect/Artist",
+  designation: "Architect | Artist",
   avatarUrl: "https://avatars.githubusercontent.com/u/252348423?s=400&u=c05d4b767666690b6b8b459e3a0025afb5f56a8b&v=4",
   email: "ramyagnaidu10@gmail.com",
   phone: "+91 9620511715",
@@ -37,7 +37,6 @@ const userData = {
     title:
       "I'm an Architect by profession and a Artist at heart 💛 who loves creating stuff and loves building products that impact millions of lives",
     description: [
-      
       `I am a Multi-Potentialite Individual based out of Hyderabad, India. Growing up, I developed a wide range of skills, including painting, drawing, photography, beat-boxing, abacus, mimicry, singing, athletics and music. Despite initially aspiring to be a wildlife photographer, doctor, or pursue a career in building games and animation, I ended up becoming an Architect. However, I soon realised that architecture did not bring me the happiness I sought, prompting me to explore other career options.`,
       `In my quest for a more fulfilling path, I started a YouTube channel in September, 2021 without any prior knowledge of video shooting or editing. Through experimentation and dedication, I improved my editing skills and even began freelancing in photography and interior 3-D designing and rendering along the way whilst working in multiple architecture studios in Hyderabad. Determined to find my true calling, I considered various career options, such as Level Designer(Game Environment), Production Designer, National Geographic Adventurer, Photographer, and YouTube, before ultimately deciding to transition into the Tech Industry to strengthen my passion for technology.`,
       `While I was self-learning both Python and Java initially, I Found my very interest in buildings User Interfaces and due to my deep interest in designing, I decided to become a Front-End Developer gradually building my confidence in the technical side of the building UIs. I'm also actively seeking a job as a Front-End Developer at startups and I'm also interested in building my own startup eventually down the lane after 10 years probably. Additionally, I aim to create engaging YouTube videos and is looking for creative minded people to support my ideas. My biggest struggle now is finding a job that aligns with my career transition to Tech, but I am remaining determined to succeed in my new chosen field.`,
@@ -65,13 +64,13 @@ const userData = {
     },
     {
       title: "Internship",
-      company: "23 Degrees Design Studio" + " & " + "Liquid Space Studio",
-      year: "2020 - 2021",
+      company: "Studio Inscape",
+      year: "2022 - 2023",
     },
     {
       title: "Graduation",
-      company: "Bachelor of Architecture, JNAFAU-SPA-Hyderabad.",
-      year: "2016 - 2021",
+      company: "Bachelor of Architecture, Wadiyar Center for Architecture (WCFA)",
+      year: "2018 - 2023",
     },
     {
       title: "Pre-University Course",
@@ -90,7 +89,7 @@ const userData = {
     // youtube: "https://www.youtube.com/@JeshwanthShivaSai",
     // instagram: "https://www.instagram.com/jeshwanthshivasai/",
     // twitter: "https://x.com/jeshwanth_ss",
-    linkedin: "https://www.linkedin.com/in/jeshwanthshivasai/",
+    linkedin: "https://www.linkedin.com/in/ramyagnaidu/",
     // github: "https://github.com/jeshwanthshivasai",
   },
 };
