@@ -12,7 +12,7 @@ export default function ProjectDetailPage() {
   const project = userData.projects.find((proj) => proj.id === id);
 
   return (
-    <ContainerBlock title={`${project?.title || "Project"} - Jeshwanth Shiva Sai`}>
+    <ContainerBlock title={`${project?.title || "Project"} - Ramya G`}>
       <ProjectDetails project={project} />
     </ContainerBlock>
   );
