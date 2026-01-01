@@ -141,7 +141,7 @@ export default function PortfolioFlipbook() {
         <div className="px-4 py-1 bg-brass rounded-full border border-white/5 text-xs text-concrete-dark tracking-widest uppercase">
           Page {currentPage + 1} of {totalPages}
         </div>
-        <p className="text-[10px] text-concrete-light uppercase tracking-tighter">
+        <p className="text-[10px] text-vermillion uppercase tracking-tighter">
           Use keys ← → or drag corners to flip
         </p>
       </div>
