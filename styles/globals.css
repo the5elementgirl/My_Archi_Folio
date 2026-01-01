@@ -27,3 +27,9 @@ html:fullscreen {
 :-webkit-full-screen {
   background: #111;
 }
+
+/* Hide helper blank page */
+.stf__item:first-child {
+  opacity: 0;
+  pointer-events: none;
+}
