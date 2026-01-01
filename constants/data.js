@@ -47,40 +47,37 @@ const userData = {
   },
   experience: [
     {
-      title: "Designer/Developer",
-      company: "GenbaNEXT",
+      title: "Architect",
+      company: "FHD India Pvt. Ltd",
       year: "2025 - Present",
-      desc: "I owe these guys everything, because in this corporate world where companies only choose Tier-1 candidates, these were the one who believed in my skill and determination",
-    },
-    {
-      title: "Freelancer Architect, Photographer, Videographer, Documentarian",
-      year: "2023 - 2024",
-      desc: "Worked along a couple of architectural projects whilst serving in other creative streams finding out my true passion for visual sttorytelling.",
+      desc: "Lorem Ipsum",
     },
     {
       title: "Junior Architect",
-      year: "2021 - 2023",
-      desc: "Worked on quite a number of projects with multiple firms across the span of 2 years",
+      year: "2023 - 2025",
+      company: "Archinnovations",
+      desc: "Worked on quite a number of projects across the span of 2 years",
     },
     {
       title: "Internship",
       company: "Studio Inscape",
       year: "2022 - 2023",
+      desc: "Lorem Ipsum",
     },
     {
       title: "Graduation",
-      company: "Bachelor of Architecture, Wadiyar Center for Architecture (WCFA)",
+      company: "B.Arch, Wadiyar Center for Architecture (WCFA)",
       year: "2018 - 2023",
     },
     {
       title: "Pre-University Course",
-      company: "Delta Junior College",
-      year: "2014 - 2016",
+      company: "Jnanodaya PUC College",
+      year: "2016 - 2018",
     },
     {
       title: "High School",
-      company: "St.Joseph's Public School(ICSE), Hyderabad.",
-      year: "2014",
+      company: "MariMalappa High School, Mysuru.",
+      year: "2016",
     },
   ],
   resumeUrl:
