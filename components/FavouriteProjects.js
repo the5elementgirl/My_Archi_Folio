@@ -15,12 +15,12 @@ export default function FavouriteProjects() {
   // Get tag color based on index
   const getTagColor = (index) => {
     const colors = [
-      "bg-red-600",
-      "bg-red-600",
-      "bg-red-600",
-      "bg-red-600",
+      "bg-brass",
+      "bg-brass",
+      "bg-brass",
+      "bg-brass",
     ];
-    return colors[index] || "bg-red-500";
+    return colors[index] || "bg-brass";
   };
 
   return (
@@ -67,10 +67,10 @@ export default function FavouriteProjects() {
                   alt={featuredProjects[0].title}
                   className="transform hover:scale-110 transition duration-2000 ease-out w-full h-full object-cover"
                 />
-                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(0)} rounded-md px-3 py-1`}>
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-semibold text-xl ${getTagColor(0)} rounded-md px-3 py-1`}>
                   {featuredProjects[0].title}
                 </h1>
-                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-semibold text-xl">
                   {formatProjectNumber(0)}
                 </h1>
               </div>
@@ -89,10 +89,10 @@ export default function FavouriteProjects() {
                   alt={featuredProjects[1].title}
                   className="transform hover:scale-110 transition duration-2000 ease-out w-full h-full object-cover"
                 />
-                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(1)} rounded-md px-3 py-1`}>
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-semibold text-xl ${getTagColor(1)} rounded-md px-3 py-1`}>
                   {featuredProjects[1].title}
                 </h1>
-                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-semibold text-xl">
                   {formatProjectNumber(1)}
                 </h1>
               </div>
@@ -111,10 +111,10 @@ export default function FavouriteProjects() {
                   alt={featuredProjects[2].title}
                   className="transform hover:scale-110 transition duration-2000 ease-out object-cover shadow-2xl w-full h-full"
                 />
-                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(2)} rounded-md px-3 py-1`}>
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-semibold text-xl ${getTagColor(2)} rounded-md px-3 py-1`}>
                   {featuredProjects[2].title}
                 </h1>
-                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-semibold text-xl">
                   {formatProjectNumber(2)}
                 </h1>
               </div>
@@ -133,10 +133,10 @@ export default function FavouriteProjects() {
                   alt={featuredProjects[3].title}
                   className="transform hover:scale-110 transition duration-2000 ease-out object-cover shadow-2xl w-full h-full"
                 />
-                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(3)} rounded-md px-3 py-1`}>
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-semibold text-xl ${getTagColor(3)} rounded-md px-3 py-1`}>
                   {featuredProjects[3].title}
                 </h1>
-                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-semibold text-xl">
                   {formatProjectNumber(3)}
                 </h1>
               </div>

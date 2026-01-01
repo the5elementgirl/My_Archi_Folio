@@ -15,17 +15,17 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl text-brass dark:text-brass">
+            <h1 className="font-semibold text-lg text-brass dark:text-brass">
               {userData.name}
             </h1>
             {/* <h1 className="font-semibold text-md text-amber-500 dark:text-amber-500">
               {userData.kannada}
             </h1> */}
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-md pt-2 text-center font-light text-gray-500 dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>

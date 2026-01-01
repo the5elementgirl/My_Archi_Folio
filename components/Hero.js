@@ -6,24 +6,29 @@ import userData from "@constants/data";
 export default function Hero() {
   // Architectural palette
   const highlights = [
-    "#F5C542",
     "#8B8C89",
-    "#E34234",
-    "#7CB518",
-
+    "#F5C542",
+    "#D1493F",
+    "#8CB369",
   ];
   return (
-    <div className="flex flex-row justify-center items-start overflow-hidden">
+    <div 
+      className="flex flex-row justify-center items-start overflow-hidden"
+      // style={{
+      //   backgroundImage:
+      //     "url('https://media.istockphoto.com/id/510981329/vector/sari-pattern.jpg?s=612x612&w=0&k=20&c=O-OslQUNCVS99BP3OKpVpPYyFzETFDYHOIPraUm51gs=')",
+      // }}
+      >
       {/* Text container */}
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={highlights[1]}>
+          <RainbowHighlight color={highlights[0]}>
             <h1 className="text-4xl md:text-8xl font-bold light:text-grey-500 dark:text-gray-100 my-2">
               Architect.
             </h1>
           </RainbowHighlight>
 
-          <RainbowHighlight color={highlights[0]}>
+          <RainbowHighlight color={highlights[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-ink dark:text-gray-100 my-2">
               Designer.
             </h1>
@@ -61,7 +66,7 @@ export default function Hero() {
                   d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
                 />
               </svg>
-              <p className="font-mono text-sm">
+              <p className="font-inter font-medium text-brass text-md">
                 That&apos;s me
               </p>
             </div>
