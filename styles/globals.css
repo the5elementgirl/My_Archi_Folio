@@ -19,3 +19,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html:fullscreen {
+  background: #111;
+}
+
+:-webkit-full-screen {
+  background: #111;
+}

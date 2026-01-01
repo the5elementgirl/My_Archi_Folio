@@ -1,6 +1,6 @@
 const userData = {
   githubUsername: "jeshwanthshivasai",
-  name: "Ramya · ರಮ್ಯಾ · రమ్య",
+  name: " ರಮ್ಯಾ · Ramya · రమ్య",
   // kannada: "",
   designation: "Architect/Artist",
   avatarUrl: "https://avatars.githubusercontent.com/u/252348423?s=400&u=c05d4b767666690b6b8b459e3a0025afb5f56a8b&v=4",
