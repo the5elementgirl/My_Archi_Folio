@@ -108,7 +108,7 @@ export default function PortfolioFlipbook() {
       <div className="absolute top-6 left-6 z-50">
         <button 
           onClick={handleClose}
-          className="group flex items-center gap-2 px-4 py-2 bg-neutral-900/80 text-white backdrop-blur-md rounded-full border border-white/10 hover:bg-white/10 transition-all"
+          className="group flex items-center gap-2 px-4 py-2 bg-neutral-900/80 text-white backdrop-blur-md rounded-full border border-white/10 hover:bg-brass hover:text-concrete-dark transition-all"
         >
           <span className="text-lg group-hover:-translate-x-1 transition-transform">←</span>
           <span className="text-sm font-medium">Exit Portfolio</span>
@@ -118,14 +118,14 @@ export default function PortfolioFlipbook() {
       {/* Top Right: Flip Controls & Fullscreen */}
       <div className="absolute top-6 right-6 z-50 flex gap-3">
         <div className="flex bg-neutral-900/80 backdrop-blur-md rounded-full border border-white/10 p-1">
-          <button onClick={() => pageFlipRef.current?.flipPrev()} className="p-2 px-4 text-white hover:text-amber-500 transition-colors">◀</button>
+          <button onClick={() => pageFlipRef.current?.flipPrev()} className="p-2 px-4 text-white hover:text-brass transition-colors">◀</button>
           <div className="w-[1px] bg-white/10 my-2"></div>
-          <button onClick={() => pageFlipRef.current?.flipNext()} className="p-2 px-4 text-white hover:text-amber-500 transition-colors">▶</button>
+          <button onClick={() => pageFlipRef.current?.flipNext()} className="p-2 px-4 text-white hover:text-brass transition-colors">▶</button>
         </div>
         
         <button 
           onClick={toggleFullscreen} 
-          className="px-4 py-2 bg-amber-600 text-white font-medium rounded-full hover:bg-amber-500 transition-all shadow-lg shadow-amber-900/20"
+          className="px-4 py-2 bg-concrete-light text-concrete-dark font-medium rounded-full hover:bg-brass hover:text-concrete-dark transition-all"
         >
           {isFullscreen ? "Exit Fullscreen" : "Fullscreen"}
         </button>
@@ -138,10 +138,10 @@ export default function PortfolioFlipbook() {
       
       {/* Bottom Center: Page Counter & Hint */}
       <div className="absolute bottom-10 flex flex-col items-center gap-2">
-        <div className="px-4 py-1 bg-white/5 rounded-full border border-white/5 text-xs text-gray-400 tracking-widest uppercase">
+        <div className="px-4 py-1 bg-brass rounded-full border border-white/5 text-xs text-concrete-dark tracking-widest uppercase">
           Page {currentPage + 1} of {totalPages}
         </div>
-        <p className="text-[10px] text-gray-600 uppercase tracking-tighter">
+        <p className="text-[10px] text-concrete-light uppercase tracking-tighter">
           Use keys ← → or drag corners to flip
         </p>
       </div>
