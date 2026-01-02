@@ -15,8 +15,8 @@ export default function Footer() {
               Developed by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
-                  className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                  href="https://jessexdaddy.in/"
+                  className="hover:bg-brass rounded-md px-2 py-1 hover:text-concrete-dark"
+                  href="/"
                 >
                   Jesse with ❤️
                 </a>

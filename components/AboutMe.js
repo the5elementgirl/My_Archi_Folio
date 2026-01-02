@@ -4,8 +4,8 @@ import userData from "@constants/data";
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-56 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center -mt-4 md:text-left">
           About Me.
         </h1>
       </div>
@@ -18,10 +18,10 @@ export default function AboutMe() {
             {userData.about.title}. 
             Currently working on{" "}
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="bg-brass rounded-md px-2 py-1 text-concrete-dark"
               href={userData.about.currentProjectUrl}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentProject} Lorem Ipsum
             </a>
           </p>
         </div>
@@ -38,13 +38,15 @@ export default function AboutMe() {
                 For any sort help / enquiry, shoot a{" "}
                 <a
                   href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  className="text-brass border-b-2 border-brass dark:border-brass font-bold dark:text-brass"
                 >
-                  mail
+                  MAIL
                 </a>{" "}
                 and I'll get back. I swear.
               </p>
             </div>
+                        <br></br>
+            <hr></hr>
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
@@ -55,15 +57,17 @@ export default function AboutMe() {
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
-                  className="text-red-600 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-red-600"
+                  className="text-brass border-b-2 border-brass dark:border-brass font-bold dark:text-brass"
                 >
                   CV
                 </a>{" "}
                 and I'd love to work for you.
               </p>
             </div>
+            <br></br>
+            <hr></hr>
             {/* Social Links */}
-            <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
+            <h1 className="text-xl font-semibold mt-8 text-gray-700 dark:text-gray-200">
               Social Links
             </h1>
             <div className="mt-4 ml-4">
@@ -92,7 +96,7 @@ export default function AboutMe() {
               </p>
             ))}
             <br></br><br></br>
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="bg-brass text-3xl rounded-md px-2 py-1 inline-block font-bold text-concrete-dark">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
