@@ -14,7 +14,7 @@ const userData = {
       category: "SaaS App Design",
       description: "A mobile friendly and responsive SaaS Dashboard to conduct surveys and look quickly at the statistics collected from the surveys. V.1.0 - Released on 26-11-2025",
       // link: "https://weather-app-ft-react.vercel.app/",
-      imgUrl: "/HOST.png",
+      // imgUrl: "/HOST.png",
       tags: ["SaaS Dashboard", "UI Flow", "UX Research"],
       details: {
         // overview: "This weather application was built to showcase modern React development practices and API integration. The app fetches real-time weather data and displays it in a clean, user-friendly interface.",
