@@ -2,5 +2,5 @@
 
 export default (req, res) => {
   res.statusCode = 200
-  res.json({ name: 'Elon Musk' })
+  res.json({ name: 'Ghajini' })
 }

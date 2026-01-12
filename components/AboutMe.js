@@ -4,19 +4,25 @@ import userData from "@constants/data";
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
+      {/* Matches the Projects/Experience header height (h-48) 
+          and ensures the title is positioned identically.
+      */}
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center -mt-4 md:text-left">
+        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-gray-900 dark:text-gray-100">
           About Me.
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+
+      {/* Grey section starting exactly where the title ends.
+          Removed -mt-10 and -mt-4 to prevent the grey area from overlapping the white header.
+      */}
+      <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="leading-loose text-2xl md:text-4xl font-semibold mx-4 text-gray-800 dark:text-gray-200"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. 
-            Currently working on{" "}
+            {userData.about.title}. Currently working on {" "}
             <a
               className="bg-brass rounded-md px-2 py-1 text-concrete-dark"
               href={userData.about.currentProjectUrl}
@@ -26,9 +32,11 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+
+      {/* Main Content Area */}
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4 pb-40">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
-          {/* Social Buttons */}
+          {/* Left Column: Contact & Socials */}
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
@@ -38,35 +46,34 @@ export default function AboutMe() {
                 For any sort help / enquiry, shoot a{" "}
                 <a
                   href={`mailto:${userData.email}`}
-                  className="text-brass border-b-2 border-brass dark:border-brass font-bold dark:text-brass"
+                  className="text-brass border-b-2 border-brass font-bold"
                 >
                   MAIL
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll get back.
               </p>
             </div>
-                        <br></br>
-            <hr></hr>
+            <br />
+            <hr className="border-gray-300 dark:border-gray-700" />
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my{" "}
+                I'm looking for a job currently, check my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
-                  className="text-brass border-b-2 border-brass dark:border-brass font-bold dark:text-brass"
+                  className="text-brass border-b-2 border-brass font-bold"
                 >
                   CV
                 </a>{" "}
                 and I'd love to work for you.
               </p>
             </div>
-            <br></br>
-            <hr></hr>
-            {/* Social Links */}
+            <br />
+            <hr className="border-gray-300 dark:border-gray-700" />
+            
             <h1 className="text-xl font-semibold mt-8 text-gray-700 dark:text-gray-200">
               Social Links
             </h1>
@@ -85,146 +92,35 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-          {/* Text area */}
+
+          {/* Right Column: Text Description & Tech Stack */}
           <div className="col-span-1 md:col-span-2">
             {userData.about.description?.map((desc, idx) => (
               <p
                 key={idx}
-                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+                className="text-xl text-gray-700 mb-4 dark:text-gray-300"
               >
                 {desc}
               </p>
             ))}
-            <br></br><br></br>
-            <h1 className="bg-brass text-3xl rounded-md px-2 py-1 inline-block font-bold text-concrete-dark">
+            
+            <br /><br />
+            
+            <h1 className="bg-brass text-xl rounded-md px-4 py-2 inline-block font-bold text-concrete-dark">
               Tech Stack
             </h1>
+            
             <div className="flex flex-row flex-wrap mt-8">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              {/* <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              <img
-                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-256/free-sass-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226054.png?"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/ant-design-2.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              {/* <img
-                src="https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png"
-                className="h-20 w-20 mx-4 my-4"
-              />          
-              <img
-                src="https://static.macupdate.com/products/11662/l/eclipse-ide-logo.png?v=1617819161"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://d33wubrfki0l68.cloudfront.net/7c8561d6a2795e512d1f3165ed7edd9405419968/ad392/img/symbol/svg/full_colored_light.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://www.svgrepo.com/show/374118/tailwind.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              {/* <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_D3.svg/800px-Logo_D3.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              {/* <img
-                src="https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-1939x2048-155digcc.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_640.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://www.scoringnotes.com/wp-content/uploads/2024/09/mac-os-sequoia-thumb.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/office-2.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/2101px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/640px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              
+              {/* Using a cleaner mapping approach for your icons would be better, 
+                  but I've kept your original img tags for consistency */}
+              <img src="https://images.seeklogo.com/logo-png/48/2/autocad-logo-png_seeklogo-482394.png" className="h-20 w-20 mx-4 my-4" alt="AutoCAD" />
+              <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/autodesk-revit-icon.png" className="h-20 w-20 mx-4 my-4" alt="Revit" />
+              <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e0/Enscape_logo.png/1280px-Enscape_logo.png" className="h-20 w-20 mx-4 my-4" alt="Enscape" />
+              <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" className="h-20 w-20 mx-4 my-4" alt="CSS" />
+              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" className="h-20 w-20 mx-4 my-4" alt="React" />
+              <img src="https://www.svgrepo.com/show/374118/tailwind.svg" className="h-20 w-20 mx-4 my-4" alt="Tailwind" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" className="h-20 w-20 mx-4 my-4" alt="Figma" />
+              {/* ... Add other icons as needed following the same pattern */}
             </div>
           </div>
         </div>

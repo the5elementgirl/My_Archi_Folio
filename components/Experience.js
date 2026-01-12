@@ -27,7 +27,7 @@ export default function Experience() {
         </h1>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-40">
+        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-40 pb-40">
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
             <>
