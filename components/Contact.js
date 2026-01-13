@@ -50,12 +50,12 @@ export default function Contact() {
   return (
     <section className="dark:bg-gray-900 pb-20 transition-colors duration-500">
       <div className="max-w-6xl mx-auto h-48 dark:bg-ink antialiased">
-        <h1 className="text-5xl md:text-9xl py-20 font-bold text-center md:text-left dark:bg-gray-900 text-concrete-dark dark:text-concrete-light">
+        <h1 className="text-5xl md:text-9xl py-20 font-bold text-center md:text-left dark:bg-gray-900 text-ink dark:text-concrete-light">
           Contact
         </h1>
       </div>
       
-      <div className="relative z-10 rounded-2xl shadow-2xl bg-ink dark:bg-gray-800 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto border-b-8 border-brass">
+      <div className="relative z-10 rounded-2xl shadow-2xl bg-ink dark:bg-ink p-4 md:p-10 lg:p-20 max-w-6xl mx-auto border-b-8 border-brass">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           
           <div className="md:ml-4">
