@@ -122,7 +122,7 @@ export default function Contact() {
             <div className="mt-8">
               <div 
                 className="g-recaptcha" 
-                data-sitekey="6LdhEEksAAAAAMZMtDV7FyBUl8iOzZQpv8Dab929" // REPLACE WITH YOUR ACTUAL KEY
+                data-sitekey="6Ld8EEksAAAAAKOV4lASYjrDJpWT1-k4F49bSX1-" // REPLACE WITH YOUR ACTUAL KEY
               ></div>
             </div>
 
