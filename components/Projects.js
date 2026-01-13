@@ -12,7 +12,7 @@ export default function Projects() {
             <img
               src={imgUrl}
               alt={title}
-              className="transition-transform duration-500 ease-out object-cover h-full w-full hover:scale-110"
+              className="transition-transform duration-1000 ease-in-out object-fit h-full w-full hover:scale-110"
             />
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Projects() {
             {tags && tags.map((tag, idx) => (
               <span
                 key={idx}
-                className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full"
+                className="px-3 py-1 text-sm bg-brass dark:bg-brass text-concrete-dark dark:textconcrete-dark rounded-full"
               >
                 {tag}
               </span>
@@ -60,7 +60,7 @@ export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-concrete-dark dark:text-concrete-light">
           Projects
         </h1>
       </div>

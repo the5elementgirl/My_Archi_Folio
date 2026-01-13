@@ -4,24 +4,27 @@ const userData = {
   // kannada: "",
   designation: "Architect/Artist",
   avatarUrl: "https://avatars.githubusercontent.com/u/252348423?s=400&u=c05d4b767666690b6b8b459e3a0025afb5f56a8b&v=4",
-  email: "ramyagnaidu10@gmail.com",
+  email: "the5elementgirl@gmail.com",
   phone: "+91 9620511715",
   address: "Mysuru, Karnataka, India.",
   projects: [
     {
-      id: "saas-dashboard",
-      title: "SaaS Dashboard",
-      category: "SaaS App Design",
-      description: "A mobile friendly and responsive SaaS Dashboard to conduct surveys and look quickly at the statistics collected from the surveys. V.1.0 - Released on 26-11-2025",
+      id: "cinq",
+      title: "CINQ by Raghava",
+      category: "High-Rise Residential",
+      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
       // link: "https://weather-app-ft-react.vercel.app/",
-      // imgUrl: "/HOST.png",
-      tags: ["SaaS Dashboard", "UI Flow", "UX Research"],
+      imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
+      tags: ["high-rise", "residential", "sectional drawings"],
       details: {
-        // overview: "This weather application was built to showcase modern React development practices and API integration. The app fetches real-time weather data and displays it in a clean, user-friendly interface.",
+        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
         // technologies: ["React", "JavaScript", "CSS", "Weather API"],
         features: [
-          "Responsive design",
-          "Clean UI/UX"
+          "5 Majestic Towers",
+          "61 Harmonic Floors",
+          "Sky-Lounge",
+          "7.19 Acres",
+          "36,000* Sqft/Apartment "
         ],
         // challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
         // solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
@@ -35,12 +38,9 @@ const userData = {
   ],
   about: {
     title:
-      "I'm an Architect by profession and a Artist at heart 💛 who loves creating stuff and loves building products that impact millions of lives",
+      `I’m an architect by profession and an artist at heart 💛, creating thoughtful spaces where form, feeling, and everyday life come together. 🌻`,
     description: [
-      `I am a Multi-Potentialite Individual based out of Hyderabad, India. Growing up, I developed a wide range of skills, including painting, drawing, photography, beat-boxing, abacus, mimicry, singing, athletics and music. Despite initially aspiring to be a wildlife photographer, doctor, or pursue a career in building games and animation, I ended up becoming an Architect. However, I soon realised that architecture did not bring me the happiness I sought, prompting me to explore other career options.`,
-      `In my quest for a more fulfilling path, I started a YouTube channel in September, 2021 without any prior knowledge of video shooting or editing. Through experimentation and dedication, I improved my editing skills and even began freelancing in photography and interior 3-D designing and rendering along the way whilst working in multiple architecture studios in Hyderabad. Determined to find my true calling, I considered various career options, such as Level Designer(Game Environment), Production Designer, National Geographic Adventurer, Photographer, and YouTube, before ultimately deciding to transition into the Tech Industry to strengthen my passion for technology.`,
-      `While I was self-learning both Python and Java initially, I Found my very interest in buildings User Interfaces and due to my deep interest in designing, I decided to become a Front-End Developer gradually building my confidence in the technical side of the building UIs. I'm also actively seeking a job as a Front-End Developer at startups and I'm also interested in building my own startup eventually down the lane after 10 years probably. Additionally, I aim to create engaging YouTube videos and is looking for creative minded people to support my ideas. My biggest struggle now is finding a job that aligns with my career transition to Tech, but I am remaining determined to succeed in my new chosen field.`,
-      `My ultimate dream is to develop a product that helps people create things with ease and supports their livelihood, much like how YouTube, the Internet, and computers have revolutionised various industries. I'm particularly passionate about creating an AI-driven CAD and 3-D application that would significantly boost the workflow of architects, reducing the time spent on drafting from hours to minutes. With my diverse skill set, creative mindset, and determination to succeed, I believe I'm poised to make a significant impact in the Tech industry and make this world a better place for everyone.`,
+      `I’m an architect passionate about creating spaces that truly work for people, shaped through close collaboration and a deep understanding of those who will inhabit them. For me, design goes beyond how something looks - it’s about how it feels, how it comes to life, and how thoughtfully it serves the people who experience it every day. 🌻`
     ],
     // currentProject: "Weather App ft.React",
     // currentProjectUrl: "https://weather-app-ft-react.vercel.app/",
@@ -48,40 +48,40 @@ const userData = {
   experience: [
     {
       title: "Architect",
-      company: "FHD India Pvt. Ltd",
+      company: "FHD India Pvt. Ltd | Hyderabad",
       year: "2025 - Present",
       desc: "Lorem Ipsum",
     },
     {
       title: "Junior Architect",
       year: "2023 - 2025",
-      company: "Archinnovations",
+      company: "Archinnovations | Mysuru",
       desc: "Worked on quite a number of projects across the span of 2 years",
     },
     {
       title: "Internship",
-      company: "Studio Inscape",
+      company: "Studio Inscape | Hyderabad",
       year: "2022 - 2023",
       desc: "Lorem Ipsum",
     },
     {
       title: "Graduation",
-      company: "B.Arch, Wadiyar Center for Architecture (WCFA)",
+      company: "B.Arch, Wadiyar Center for Architecture (WCFA) | Mysuru",
       year: "2018 - 2023",
     },
     {
       title: "Pre-University Course",
-      company: "Jnanodaya PUC College",
+      company: "Jnanodaya PUC College | Mysuru",
       year: "2016 - 2018",
     },
     {
       title: "High School",
-      company: "MariMalappa High School, Mysuru.",
+      company: "MariMalappa High School | Mysuru",
       year: "2016",
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/17CqdEETJaiKQFfKjkTqbfBdnZaTDynFf/view?usp=sharing",
+    "",
   socialLinks: {
     // youtube: "https://www.youtube.com/@JeshwanthShivaSai",
     // instagram: "https://www.instagram.com/jeshwanthshivasai/",

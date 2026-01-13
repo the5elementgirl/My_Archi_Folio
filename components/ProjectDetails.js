@@ -29,7 +29,7 @@ export default function ProjectDetails({ project }) {
         {/* Back Button */}
         <Link
           href="/projects"
-          className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 mb-8 transition-colors"
+          className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-brass dark:hover:text-brass mb-8 transition-colors"
         >
           <svg
             className="w-5 h-5 mr-2"
@@ -52,7 +52,7 @@ export default function ProjectDetails({ project }) {
           <img
             src={project.imgUrl}
             alt={project.title}
-            className="w-full h-100 object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
 
@@ -72,12 +72,12 @@ export default function ProjectDetails({ project }) {
                 d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
               />
             </svg>
-            <span className="text-sm text-gray-600 dark:text-gray-400 font-medium">
+            <span className="text-sm text-concrete-dark dark:text-concrete-light font-medium">
               {project.category}
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-concrete-dark dark:text-concrete-light mb-6">
             {project.title}
           </h1>
 
@@ -91,7 +91,7 @@ export default function ProjectDetails({ project }) {
               {project.tags.map((tag, idx) => (
                 <span
                   key={idx}
-                  className="px-4 py-2 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full"
+                  className="px-4 py-2 text-sm bg-brass dark:bg-brass text-gray-700 dark:text-gray-900 rounded-full"
                 >
                   {tag}
                 </span>
