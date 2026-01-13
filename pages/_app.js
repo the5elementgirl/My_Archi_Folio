@@ -22,6 +22,12 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
 
+      {/* 2. Google reCAPTCHA Script */}
+      <Script 
+        src="https://www.google.com/recaptcha/api.js" 
+        strategy="lazyOnload" 
+      />
+
       <Component {...pageProps} />
       <Analytics />
       <SpeedInsights />

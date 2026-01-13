@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import userData from "@constants/data";
 
@@ -6,8 +6,22 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
 
+  //Create a ref to easily reset the captcha later
+  const formRef = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // 3. Get the reCAPTCHA response
+    // window.grecaptcha is available because you added the script in _app.js
+    const captchaResponse = window.grecaptcha.getResponse();
+
+    if (!captchaResponse) {
+      setStateMessage("Please complete the reCAPTCHA first!");
+      setTimeout(() => setStateMessage(null), 5000);
+      return;
+    }
+
     setIsSubmitting(true);
 
     emailjs
@@ -22,6 +36,7 @@ export default function Contact() {
           setStateMessage('Message Sent Successfully!');
           setIsSubmitting(false);
           e.target.reset();
+          window.grecaptcha.reset();
           setTimeout(() => setStateMessage(null), 5000);
         },
         (error) => {
@@ -102,6 +117,14 @@ export default function Contact() {
               required
               className="font-light rounded-none border-b-2 border-concrete-light text-concrete-dark focus:border-brass focus:outline-none py-3 mt-2 bg-transparent transition-colors"
             ></textarea>
+
+            {/* 5. ADD THE RECAPTCHA WIDGET HERE */}
+            <div className="mt-8">
+              <div 
+                className="g-recaptcha" 
+                data-sitekey="6LdhEEksAAAAAMZMtDV7FyBUl8iOzZQpv8Dab929" // REPLACE WITH YOUR ACTUAL KEY
+              ></div>
+            </div>
 
             <button
               type="submit"
