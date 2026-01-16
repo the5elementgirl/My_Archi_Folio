@@ -20,12 +20,12 @@ export default function Hero() {
       // }}
       >
       {/* Text container */}
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20 -mr-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={highlights[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold light:text-grey-500 dark:text-gray-100 my-2">
+            <h2 className="text-4xl md:text-8xl font-bold light:text-grey-500 dark:text-gray-100 my-2">
               Architect.
-            </h1>
+            </h2>
           </RainbowHighlight>
 
           <RainbowHighlight color={highlights[1]}>
