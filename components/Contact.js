@@ -48,14 +48,14 @@ export default function Contact() {
   };
 
   return (
-    <section className="dark:bg-gray-900 pb-20 transition-colors duration-500">
-      <div className="max-w-6xl mx-auto h-48 dark:bg-ink antialiased">
-        <h1 className="text-5xl md:text-9xl py-20 font-bold text-center md:text-left dark:bg-gray-900 text-ink dark:text-concrete-light">
+    <section className="bg-[#F1F1F1] dark:bg-gray-900 pb-20 transition-colors duration-500">
+      <div className="max-w-6xl mx-auto h-48 dark:bg-gray-900 antialiased">
+        <h1 className="text-5xl md:text-9xl py-20 font-bold text-center md:text-left text-ink dark:text-concrete-light">
           Contact
         </h1>
       </div>
       
-      <div className="relative z-10 rounded-2xl shadow-2xl bg-ink dark:bg-ink p-4 md:p-10 lg:p-20 max-w-6xl mx-auto border-b-8 border-brass">
+      <div className="relative z-10 rounded-2xl shadow-2xl bg-gray-800 dark:bg-gray-800 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto border-b-8 border-brass">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           
           <div className="md:ml-4">
@@ -68,22 +68,63 @@ export default function Contact() {
               </p>
             </header>
 
-            <div className="icons-container inline-flex flex-col my-10 space-y-4">
-              {/* Email */}
-              <div className="flex flex-row items-center space-x-6 p-4 border border-transparent hover:border-brass transition-all ease-in-out duration-300 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-5 w-5 text-brass" viewBox="0 0 16 16">
+            {/* <div className="icons-container inline-flex flex-col my-10 space-y-4">
+              <div className="flex flex-row items-center space-x-6 p-4 border border-brass hover:border-transparent hover:bg-brass transition-all ease-in-out duration-300 rounded-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-5 w-5 text-brass hover:text-gray-200 hover:bg-gray-200" viewBox="0 0 16 16">
                   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
                 </svg>
                 <p className="text-gray-50 font-light text-sm">{userData.email}</p>
               </div>
 
-              {/* Address */}
-              <div className="flex flex-row items-center space-x-6 p-4 border border-transparent hover:border-brass transition-all ease-in-out duration-300 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-5 w-5 text-brass" viewBox="0 0 16 16">
+              <div className="flex flex-row items-center space-x-6 p-4 border border-brass hover:border-transparent hover:bg-brass transition-all ease-in-out duration-300 rounded-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-5 w-5 text-brass hover:text-gray-200" viewBox="0 0 16 16">
                   <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z" />
                 </svg>
                 <p className="text-gray-50 font-light text-sm">{userData.address}</p>
               </div>
+            </div> */}
+
+            <div className="icons-container inline-flex flex-col my-10 space-y-4">
+              {/* Email Block */}
+              <a 
+                href={`mailto:${userData.email}`}
+                className="group flex flex-row items-center space-x-6 p-4 border border-brass hover:bg-brass transition-all ease-in-out duration-300 rounded-lg cursor-pointer">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="16" 
+                  height="16" 
+                  fill="currentColor" 
+                  /* We use group-hover:text-white to force the icon to change */
+                  className="h-5 w-5 text-brass group-hover:text-white transition-colors duration-300" 
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                </svg>
+                <p className="text-brass group-hover:text-white font-light text-sm transition-colors duration-300">
+                  {userData.email}
+                </p>
+              </a>
+
+              {/* Address Block */}
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=mysore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-row items-center space-x-6 p-4 border border-brass hover:bg-brass transition-all ease-in-out duration-300 rounded-lg cursor-pointer">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="16" 
+                  height="16" 
+                  fill="currentColor" 
+                  className="h-5 w-5 text-brass group-hover:text-white transition-colors duration-300" 
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z" />
+                </svg>
+                <p className="text-brass group-hover:text-white font-light text-sm transition-colors duration-300">
+                  {userData.address}
+                </p>
+              </a>
             </div>
           </div>
 
