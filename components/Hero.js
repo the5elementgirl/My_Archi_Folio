@@ -6,21 +6,17 @@ import userData from "@constants/data";
 export default function Hero() {
   // Architectural palette
   const highlights = [
-    "#8B8C89",
-    "#F5C542",
-    "#D1493F",
-    "#8CB369",
+    "#8B8C89", // concrete grey
+    "#F5C542", // brass
+    "#D1493F", // oxide red
+    "#8CB369", // moss green
   ];
   return (
     <div 
-      className="flex flex-row justify-center items-start overflow-hidden"
-      // style={{
-      //   backgroundImage:
-      //     "url('https://media.istockphoto.com/id/510981329/vector/sari-pattern.jpg?s=612x612&w=0&k=20&c=O-OslQUNCVS99BP3OKpVpPYyFzETFDYHOIPraUm51gs=')",
-      // }}
+      className="flex flex-row justify-center overflow-hidden"
       >
       {/* Text container */}
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20 -mr-20">
+      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20 -mr-4">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={highlights[0]}>
             <h2 className="text-4xl md:text-8xl font-bold light:text-grey-500 dark:text-gray-100 my-2">
@@ -48,11 +44,11 @@ export default function Hero() {
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
+      <div className="hidden lg:block relative w-full md:w-1/2 -mr-60 mt-20">
         <div className="w-3/4">
           <img src={userData.avatarUrl} alt="avatar" className="rounded-3xl shadow-lg border border-concrete-light dark:border-concrete-dark" />
           <div className="flex flex-row justify-between mt-4 text-concrete-mid dark:text-gray-400">
-            <div className="flex flex-row space-x-4 items-center">
+            <div className="flex flex-row space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

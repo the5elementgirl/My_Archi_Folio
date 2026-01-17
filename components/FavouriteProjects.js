@@ -26,8 +26,8 @@ export default function FavouriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-80 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-80 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-white my-20 md:my-0 md:text-white dark:text-brass -ml-22 text-center">
+        <div className="flex flex-col md:flex-row justify-between items-center pt-80 mx-10 md:my-20 lg:my-0 -ml-0">
+          <h1 className="text-6xl lg:text-8xl max-w-lg font-bold text-[#8B8C89] py-10 my-20 md:my-0 md:text-[#8B8C89] dark:text-brass whitespace-nowrap">
             Favourite Projects
           </h1>
           <Link
@@ -51,10 +51,10 @@ export default function FavouriteProjects() {
             </svg>
             <p>View all</p>
           </Link>
-        </header>
+        </div>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 md:grid-rows-[auto_1fr_1fr] gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-3 md:grid-rows-[auto_1fr_1fr] gap-8 lg:-mt-2 pb-40">
           {/* Featured Project - First project spans full width */}
           {featuredProjects[0] && (
             <Link
