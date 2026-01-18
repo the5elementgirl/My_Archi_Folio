@@ -205,7 +205,7 @@ export default function Hero() {
               />
             </svg>
             <p className="font-medium text-brass text-sm md:text-base">
-              That's me
+            అది నేనే · That's me · ಅದು ನಾನೇ
             </p>
           </div>
         </div>
