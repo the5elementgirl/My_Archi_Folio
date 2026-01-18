@@ -13,12 +13,10 @@ const userData = {
       title: "CINQ by Raghava",
       category: "High-Rise Residential",
       description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
-      // link: "https://weather-app-ft-react.vercel.app/",
       imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
       tags: ["high-rise", "residential", "sectional drawings"],
       details: {
         overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
-        // technologies: ["React", "JavaScript", "CSS", "Weather API"],
         features: [
           "5 Majestic Towers",
           "61 Harmonic Floors",
@@ -30,11 +28,66 @@ const userData = {
         // solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
       }
     },
-    // {
-    //   title: "Music Website ft.React",
-    //   link: "",
-    //   imgUrl: "/qtify.png",
-    // },
+    {
+      id: "cinq",
+      title: "CINQ by Raghava",
+      category: "High-Rise Residential",
+      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
+      imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
+      tags: ["high-rise", "residential", "sectional drawings"],
+      details: {
+        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
+        features: [
+          "5 Majestic Towers",
+          "61 Harmonic Floors",
+          "Sky-Lounge",
+          "7.19 Acres",
+          "36,000* Sqft/Apartment "
+        ],
+        // challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        // solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
+    },
+    {
+      id: "cinq",
+      title: "CINQ by Raghava",
+      category: "High-Rise Residential",
+      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
+      imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
+      tags: ["high-rise", "residential", "sectional drawings"],
+      details: {
+        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
+        features: [
+          "5 Majestic Towers",
+          "61 Harmonic Floors",
+          "Sky-Lounge",
+          "7.19 Acres",
+          "36,000* Sqft/Apartment "
+        ],
+        // challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        // solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
+    },
+    {
+      id: "cinq",
+      title: "CINQ by Raghava",
+      category: "High-Rise Residential",
+      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
+      imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
+      tags: ["high-rise", "residential", "sectional drawings"],
+      details: {
+        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
+        features: [
+          "5 Majestic Towers",
+          "61 Harmonic Floors",
+          "Sky-Lounge",
+          "7.19 Acres",
+          "36,000* Sqft/Apartment "
+        ],
+        // challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        // solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
+    },
   ],
   about: {
     title:
