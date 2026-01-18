@@ -196,7 +196,7 @@ export default function Hero() {
               width="16"
               height="16"
               fill="currentColor"
-              className="text-brass transform rotate-90 sm:-rotate-0"
+              className="text-brass transform lg:rotate-0 -rotate-0"
               viewBox="0 0 16 16"
             >
               <path
