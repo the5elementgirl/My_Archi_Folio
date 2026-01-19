@@ -33,3 +33,15 @@ html:fullscreen {
   opacity: 0;
   pointer-events: none;
 }
+
+/* At the bottom of globals.css */
+@layer utilities {
+  @keyframes sparkle {
+    0%, 100% { opacity: 0; transform: scale(0); }
+    50% { opacity: 1; transform: scale(2.0); }
+  }
+
+  .animate-sparkle {
+    animation: sparkle var(--duration, 1s) ease-in-out infinite;
+  }
+}

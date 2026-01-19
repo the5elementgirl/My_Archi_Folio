@@ -236,6 +236,7 @@ export default function Navbar() {
     { href: "/experience", label: "Experience" },
     { href: "/portfolio", label: "Portfolio" },
     { href: "/contact", label: "Contact" },
+    // { href: "/personal-space", label: "Personal" },
   ];
 
   return (

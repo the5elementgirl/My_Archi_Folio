@@ -160,6 +160,7 @@ import React from "react";
 import { RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
+import Link from "next/link";
 
 export default function Hero() {
   const highlights = ["#8B8C89", "#F5C542", "#D1493F", "#8CB369"];
@@ -172,7 +173,7 @@ export default function Hero() {
         <RoughNotationGroup show={true}>
           {["Architect.", "Designer.", "Artist.", "Wanderer."].map((text, index) => (
             <RainbowHighlight key={text} color={highlights[index]}>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold dark:text-gray-100 my-2 leading-tight">
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold dark:text-gray-100 my-2 leading-tight cursor-pointer transition-all duration-300 transform hover:scale-200 ease-in-out hover:translate-x-2">
                 {text}
               </h1>
             </RainbowHighlight>
@@ -182,12 +183,33 @@ export default function Hero() {
 
       {/* Image container */}
       <div className="relative w-full md:w-1/2 mt-12 lg:-mr-10 md:-mr-10 md:mt-0 flex justify-center md:justify-end">
-        <div className="relative w-3/4 md:w-full max-w-md">
-          <img 
-            src={userData.avatarUrl} 
-            alt="avatar" 
-            className="rounded-3xl shadow-2xl border border-gray-200 dark:border-gray-800 object-cover" 
-          />
+        <div className="relative w-3/4 md:w-full max-w-md group">
+          <Link href="/personal-space">
+            <img 
+              src={userData.avatarUrl} 
+              alt="avatar" 
+              // We use style to inject the custom emoji cursor
+              style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' style='font-size:24px'><text y='24'>✨</text></svg>\"), auto"  }}
+              className="rounded-3xl cursor-pointer shadow-4xl border border-gray-200 dark:border-gray-800 object-cover transition-all duration-500 group-hover:shadow-[0_0_20px_rgba(245,197,66,0.4)]" 
+            />
+            <div className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+              {[...Array(20)].map((_, i) => (
+                <div
+                  key={i}
+                  className="absolute w-1 h-1 bg-white rounded-1/2 animate-sparkle"
+                  style={{
+                    top: `${Math.random() * 100}%`,
+                    left: `${Math.random() * 100}%`,
+                    bottom: `${Math.random() * 100}%`,
+                    right: `${Math.random() * 100}%`,
+                    '--duration': `${1 + Math.random() * 3}s`,
+                    animationDelay: `${Math.random() * 1}s`,
+                    boxShadow: '0 0 4px 1px rgba(255, 255, 255, 0.9)',
+                  }}
+                />
+              ))}
+            </div>
+          </Link>
           
           {/* Decorative Arrow/Caption */}
           <div className="flex flex-row items-center space-x-2 mt-4 justify-center md:justify-start">
