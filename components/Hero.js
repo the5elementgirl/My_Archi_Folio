@@ -166,7 +166,8 @@ export default function Hero() {
   const highlights = ["#8B8C89", "#F5C542", "#D1493F", "#8CB369"];
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 py-10 lg:py-20 overflow-hidden">
+    <div className="w-full bg-white dark:bg-neutral-800 relative z-10">
+    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 py-10 lg:py-20 overflow-hidden dark:bg-neutral-800">
       
       {/* Text container */}
       <div className="w-full md:w-1/2 text-center md:text-left space-y-2">
@@ -232,6 +233,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

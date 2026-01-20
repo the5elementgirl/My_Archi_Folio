@@ -5,29 +5,29 @@ export default function Experience() {
 
   const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
     return (
-      <div className="relative experience-card border p-4 rounded-md shadow-2xl bg-white dark:bg-gray-800 z-10 mx-4 hover:text-brass">
+      <div className="relative experience-card border p-4 rounded-md shadow-2xl bg-white dark:bg-neutral-800 z-10 mx-4 hover:text-brass">
         <h1 className="absolute -top-10 md:-left-0 md:-top-10 text-4xl text-gray-500 font-bold dark:text-gray-500">
           {year}
         </h1>
         <h1 className="font-semibold text-xl">{title}</h1>
-        <a href={companyLink} className="text-gray-500 ">
+        <a href={companyLink} className="text-brass">
           {company}
         </a>
-        <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+        <p className="text-concrete-dark dark:text-concrete-light my-2">{desc}</p>
       </div>
     );
   };
 
   
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-52 bg-white dark:bg-gray-800">
+    <section className="bg-white dark:bg-neutral-800">
+      <div className="max-w-6xl mx-auto h-52 bg-white dark:bg-neutral-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-ink dark:text-concrete-light">
           Experience
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-40 pb-40">
+      <div className="bg-[#F1F1F1] dark:bg-black -mt-4">
+        <div className="grid grid-cols-1 dark:bg-black max-w-xl mx-auto pt-40 pb-40">
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
             <>

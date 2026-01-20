@@ -16,7 +16,7 @@ export default function Projects() {
             />
           </div>
         </div>
-        <div className="p-6 bg-white dark:bg-gray-800">
+        <div className="p-6 bg-white dark:bg-neutral-800">
           <div className="flex items-center gap-2 mb-3">
             <svg
               className="w-5 h-5 text-gray-600 dark:text-gray-400"
@@ -58,14 +58,14 @@ export default function Projects() {
 
 
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+    <section className="bg-white dark:bg-neutral-800">
+      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-neutral-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-ink dark:text-concrete-light">
           Projects
         </h1>
       </div>
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] dark:bg-black">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 pt-40 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard

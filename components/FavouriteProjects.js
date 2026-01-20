@@ -163,7 +163,7 @@ export default function FavouriteProjects() {
 
   return (
     // Removed the massive negative margin -mt-80 which breaks mobile
-    <div className="bg-[#F1F1F1] dark:bg-gray-900 pb-20 md:pb-40">
+    <div className="bg-[#F1F1F1] dark:bg-black pb-20 md:pb-40">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-20 md:pt-40 pb-10 md:pb-20">

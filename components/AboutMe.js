@@ -3,11 +3,11 @@ import userData from "@constants/data";
 
 export default function AboutMe() {
   return (
-    <section className="bg-white dark:bg-gray-800">
+    <section className="bg-white dark:bg-neutral-800">
       {/* Matches the Projects/Experience header height (h-48) 
           and ensures the title is positioned identically.
       */}
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-neutral-800">
         <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-ink dark:text-concrete-light">
           About Me.
         </h1>
@@ -16,7 +16,7 @@ export default function AboutMe() {
       {/* Grey section starting exactly where the title ends.
           Removed -mt-10 and -mt-4 to prevent the grey area from overlapping the white header.
       */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className="bg-[#F1F1F1] dark:bg-black">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl bg-brass p-6 rounded-lg md:text-3xl font-semibold text-gray-800 dark:text-gray-800"
@@ -35,7 +35,7 @@ export default function AboutMe() {
       </div>
 
       {/* Main Content Area */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4 pb-40">
+      <div className="bg-[#F1F1F1] dark:bg-black px-4 pb-40">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Left Column: Contact & Socials */}
           <div className="inline-flex flex-col">

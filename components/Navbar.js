@@ -240,10 +240,11 @@ export default function Navbar() {
   ];
 
   return (
+    <div className="bg:white dark:bg-neutral-800">
     <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
       <div className="flex md:flex-row justify-between items-center">
         <div className="flex flex-col">
-          <Link href="/">
+          <Link href="/" style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' style='font-size:24px'><text y='24'>✨</text></svg>\"), auto"  }}>
             <h1 className="font-semibold text-md text-brass">
               {userData.name}
             </h1>
@@ -345,6 +346,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 }

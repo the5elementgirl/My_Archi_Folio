@@ -7,7 +7,7 @@ import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider defaultTheme="light" attribute="class">
+    <ThemeProvider defaultTheme="dark" attribute="class">
       {/* 2. Add the Google Tag scripts */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-YC6T9E6S75"
