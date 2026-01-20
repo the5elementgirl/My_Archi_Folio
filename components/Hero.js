@@ -193,7 +193,7 @@ export default function Hero() {
               style={{ cursor: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' style='font-size:24px'><text y='24'>✨</text></svg>\"), auto"  }}
               className="rounded-3xl cursor-pointer shadow-4xl border border-gray-200 dark:border-gray-800 object-cover transition-all duration-500 group-hover:shadow-[0_0_20px_rgba(245,197,66,0.4)]" 
             />
-            <div className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+            {/* <div className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
               {[...Array(20)].map((_, i) => (
                 <div
                   key={i}
@@ -209,7 +209,7 @@ export default function Hero() {
                   }}
                 />
               ))}
-            </div>
+            </div> */}
           </Link>
           
           {/* Decorative Arrow/Caption */}
