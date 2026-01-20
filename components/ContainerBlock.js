@@ -22,27 +22,40 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://the5elementgirl.in${router.asPath}`}
         />
+
+        <link rel="icon" href="/favicon.ico" />
+
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://the5elementgirl.in${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Ramya G" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
+        
         {/* <meta name="twitter:card" content="summary_large_image" /> */}
         {/* <meta name="twitter:site" content="@jeshwanth_ss" /> */}
         {/* <meta name="twitter:title" content={meta.title} /> */}
         {/* <meta name="twitter:description" content={meta.description} /> */}
         {/* <meta name="twitter:image" content={meta.image} /> */}
+
+        {/* --- ADDED SCHEMA LOGIC --- */}
+        {meta.schema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(meta.schema) }}
+          />
+        )}
+
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 w-full">
+      <main className="dark:bg-black w-full">
         <Navbar />
         <div>{children}</div>
         <Footer />
