@@ -1,5 +1,5 @@
 const userData = {
-  githubUsername: "jeshwanthshivasai",
+  githubUsername: "the5elementgirl",
   name: " ರಮ್ಯಾ · Ramya · రమ్య",
   // kannada: "",
   designation: "Architect/Artist",
@@ -136,11 +136,9 @@ const userData = {
   resumeUrl:
     "",
   socialLinks: {
-    // youtube: "https://www.youtube.com/@JeshwanthShivaSai",
-    // instagram: "https://www.instagram.com/jeshwanthshivasai/",
-    // twitter: "https://x.com/jeshwanth_ss",
+    // youtube: "https://www.youtube.com/@the5elementgirl",
     linkedin: "https://www.linkedin.com/in/ramyagnaidu/",
-    // github: "https://github.com/jeshwanthshivasai",
+    // github: "https://github.com/the5elementgirl",
   },
 };
 
