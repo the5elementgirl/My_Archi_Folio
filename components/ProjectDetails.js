@@ -7,7 +7,7 @@ export default function ProjectDetails({ project }) {
 
   if (!project) {
     return (
-      <div className="min-h-screen bg-white dark:bg-gray-800 flex items-center justify-center">
+      <div className="min-h-screen bg-white dark:bg-black flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
             Project Not Found
@@ -24,12 +24,12 @@ export default function ProjectDetails({ project }) {
   }
 
   return (
-    <section className="bg-white dark:bg-gray-800 min-h-screen">
+    <section className="bg-white dark:bg-black min-h-screen">
       <div className="max-w-6xl mx-auto px-4 py-12">
         {/* Back Button */}
         <Link
           href="/projects"
-          className="inline-flex items-center text-gray-600 dark:text-gray-400 hover:text-brass dark:hover:text-brass mb-8 transition-colors"
+          className="inline-flex items-center text-gray-600 dark:text-concrete-light hover:text-brass dark:hover:text-brass mb-8 transition-colors"
         >
           <svg
             className="w-5 h-5 mr-2"
@@ -57,7 +57,7 @@ export default function ProjectDetails({ project }) {
         </div>
 
         {/* Project Info */}
-        <div className="bg-white dark:bg-gray-800">
+        <div className="bg-white dark:bg-black">
           <div className="flex items-center gap-2 mb-4">
             <svg
               className="w-5 h-5 text-gray-600 dark:text-gray-400"
