@@ -13,7 +13,7 @@ export default function about() {
       "alternateName": "the5elementgirl",
       // This is the description Google uses for the "Info Box"
       "description": "Ramya G is an Architect and Artist based in the city of Mysuru India, popularly known by the brand name the5elementgirl. With a professional background in Architecture, her work focuses on the intersection of physical space and human perception. Through Studio Panchbhoota as the Co-Founder & COO, she crafts meticulously designed environments. Her portfolio spans residential design, artistic installations, and digital storytelling.",
-      "image": "https://www.the5elementgirl.in/og-image.jpg",
+      "image": "https://www.the5elementgirl.in/favicon.png",
       "jobTitle": "Architect & Artist",
       "url": "https://www.the5elementgirl.in/about",
       "sameAs": [
