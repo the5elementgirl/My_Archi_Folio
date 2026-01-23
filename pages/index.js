@@ -13,7 +13,7 @@ export default function Home() {
     "name": "Ramya G",
     "alternateName": "the5elementgirl",
     "url": "https://www.the5elementgirl.in",
-    "image": "https://www.the5elementgirl.in/favicon.png", // Update this link
+    "image": "https://www.the5elementgirl.in/circle-img.png", // Update this link
     "jobTitle": "Architect & Artist",
     "description": "Architect, Artist, and Designer known as the5elementgirl.",
     "sameAs": [
