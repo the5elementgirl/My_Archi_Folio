@@ -14,7 +14,7 @@ const userData = {
       category: "High-Rise Residential",
       description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
       imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
-      tags: ["high-rise", "residential", "sectional drawings"],
+      tags: ["High-Rise", "Residential", "GFC drawings"],
       details: {
         overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
         features: [
@@ -29,20 +29,19 @@ const userData = {
       }
     },
     {
-      id: "cinq",
-      title: "CINQ by Raghava",
-      category: "High-Rise Residential",
-      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
-      imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
-      tags: ["high-rise", "residential", "sectional drawings"],
+      id: "nandivardhanam",
+      title: "Nandivardhanam House",
+      category: "Farm House",
+      description: "Set within an agricultural landscape on the outskirts of the city, Nandivardhanam is conceived as a residence that embraces the ethos of slow living. Positioned among sprawling fields, the house establishes an architecture of grounding, where material authenticity, climate responsiveness, and domestic rituals shape the spatial narrative.",
+      imgUrl: "https://images.adsttc.com/media/images/6930/319c/e123/2a00/01c3/7e54/slideshow/3.jpg?1764766287",
+      tags: ["Farmhouse", "Residential", "Detailed Physical Model"],
       details: {
-        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
+        overview: `Set within an agricultural landscape on the outskirts of the city, Nandivardhanam is conceived as a residence that embraces the ethos of slow living. Positioned among sprawling fields, the house establishes an architecture of grounding, where material authenticity, climate responsiveness, and domestic rituals shape the spatial narrative. The design orients itself around a deep verandah, conceived as a threshold between landscape and the interior life. This transitional zone modulates light and temperature, offering a microclimate significantly cooler than the expansive open fields around it. The verandah leads to a slender internal spine that opens into a courtyard, where a small brass idol of Lord Krishna subtly anchors the space. Though modest in scale, the object reinforces the courtyard's role as the symbolic and atmospheric heart of the home. Domestic life is articulated through a sequence of rooms envisioned not merely as functional enclosures but as spaces for pauses, rituals, and observation. Deep window sills, tactile surfaces, and controlled apertures frame the changing landscape, encouraging occupants to sit, linger, and engage with shifting light and seasonal patterns. The architecture positions itself as both backdrop and protagonist, curated yet understated. Landscape design plays an integral role in defining the project's identity. Every plant is intentionally placed, including the first Champa tree planted during the home's conceptual phase, positioned to be visible from the primary bedroom. The one-acre site also accommodates an office for the father and staff residences. These auxiliary structures adopt the same exposed-brick vocabulary, forming a peripheral edge that protects the internal garden and reinforces a cohesive material language. Nandivardhana, meaning "one who increases joy," reflects the family's aspiration for a life centered around calmness, ritual, and a close relationship with the land. At dusk, the house emits a soft, diffused glow—its warm illumination turning the residence into a lantern-like presence within the landscape, understated yet resonant.`,
         features: [
-          "5 Majestic Towers",
-          "61 Harmonic Floors",
-          "Sky-Lounge",
-          "7.19 Acres",
-          "36,000* Sqft/Apartment "
+          "Sustainability",
+          "Climate Responsiveness",
+          "Vernacular",
+          "Exposed Brickwork",
         ],
         // challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
         // solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
