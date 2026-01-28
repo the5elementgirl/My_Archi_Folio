@@ -12,7 +12,7 @@ const userData = {
       id: "cinq",
       title: "CINQ by Raghava",
       category: "High-Rise Residential",
-      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
+      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - work in harmony to shape an extraordinary living experience.",
       imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
       tags: ["High-Rise", "Residential", "GFC drawings"],
       details: {
