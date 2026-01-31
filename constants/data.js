@@ -85,7 +85,12 @@ const userData = {
     title:
       `I’m an architect by profession and an artist at heart 💛, creating thoughtful spaces where form, feeling, and everyday life come together. 🌻`,
     description: [
-      `I’m an architect passionate about creating spaces that truly work for people, shaped through close collaboration and a deep understanding of those who will inhabit them. For me, design goes beyond how something looks - it’s about how it feels, how it comes to life, and how thoughtfully it serves the people who experience it every day. 🌻`
+      // `I’m an architect passionate about creating spaces that truly work for people, shaped through close collaboration and a deep understanding of those who will inhabit them. For me, design goes beyond how something looks - it’s about how it feels, how it comes to life, and how thoughtfully it serves the people who experience it every day. 🌻`
+      `Ramya G is a professional Architect and Artist based in the city of Mysuru, India, where she is recognized under the brand name the5elementgirl. As the Co-Founder and COO of Studio Panchabhoota, she leads meticulously designed architectural environments that emphasize sustainability and functional spaces.
+
+      Her multidisciplinary approach spans residential architecture, artistic installations, and digital storytelling, focusing on how design feels and serves those who experience it daily. Ramya’s career includes significant contributions to high-rise residential projects, such as CINQ by Raghava in Hyderabad, and farmhouse designs like Nandivardhanam, which explores slow living and material authenticity.
+      
+      A graduate of the Wadiyar Centre for Architecture (WCFA), her professional journey includes roles at FHD India, Archinnovations, and Studio Inscape.`
     ],
     // currentProject: "Weather App ft.React",
     // currentProjectUrl: "https://weather-app-ft-react.vercel.app/",
@@ -129,8 +134,9 @@ const userData = {
     "",
   socialLinks: {
     // youtube: "https://www.youtube.com/@the5elementgirl",
-    linkedin: "https://www.linkedin.com/in/ramyagnaidu/",
-    // github: "https://github.com/the5elementgirl",
+    linkedin: "https://www.linkedin.com/in/the5elementgirl/",
+    github: "https://github.com/the5elementgirl",
+    instagram: "https://www.instagram.com/the5elementgirl" // Add this line
   },
 };
 
