@@ -49,11 +49,11 @@ const userData = {
       id: "lalith farmhouse",
       title: "House in the Farm",
       category: "Farm House",
-      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
+      description: "",
       imgUrl: "https://images.adsttc.com/media/images/5f90/9dd9/63c0/1779/0100/00b0/slideshow/11.jpg?1603313100",
       tags: ["Farmhouse", "Residential", "Working Drawings"],
       details: {
-        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
+        overview: "",
         features: [
           "Sustainability",
           "Climate Responsiveness",
@@ -63,20 +63,22 @@ const userData = {
       }
     },
     {
-      id: "cinq",
-      title: "CINQ by Raghava",
+      id: "amaara",
+      title: "Amaara by Deevyashakti",
       category: "High-Rise Residential",
-      description: "CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail - architecture, amenities, and landscape - work in harmony to shape an extraordinary living experience.",
-      imgUrl: "https://raghavacinq.in/wp-content/uploads/2025/02/Cinq-by-Raghava.jpg",
+      description: "At AMARA, you have an address that combines best-in-class luxuries with a best-for-you lifestyle. Located in Gaganpahad, Rajendra Nagar and spread across 5 sprawling acres, AMARA is a haven blessed with soulful elegance, quiet luxury and verdant tranquillity. Meticulously planned, thoughtfully designed, with expansive spaces that declutter mind and soul. Coupled with state-of-the-art amenities that make for a holistic and fulfilling life.",
+      imgUrl: "https://singlesmediacontent.com/microsite/7046/uplodbannernew/dee2.jpg",
       tags: ["high-rise", "residential", "sectional drawings"],
       details: {
-        overview: "Cinq by Raghava - a premium 4BHK residential project in Financial District, Hyderabad. Built for elegance, comfort, and modern luxury living. CINQ by Raghava is more than a residence - it’s an ecosystem. Rising 61 floors above Hyderabad’s Financial District, it embodies the perfect balance of nature and modernity, tranquility and vibrance, privacy and community. With five elegantly designed towers, CINQ creates an ecosystem where every detail—architecture, amenities, and landscape—work in harmony to shape an extraordinary living experience.",
+        overview: "Everlasting. What AMARA in Greek stands for. But then, it stands for much more. No compromise. No cutting corners. Because when it comes to your lifetime home, some things are sacrosanct. A sprawling address that’s reassuringly green, unabashedly open and thoughtfully located in the rising neighborhood of Gaganpahad, Rajendra Nagar with 70% open spaces and 426 thoughtfully designed 2.5 & 3 BHK with 100% Vaastu oriented design across 3 Majestic Towers rising G + 9 floors designed in Neoclassical architecture which houses a 24,000 sq ft Clubhouse and International-style car-free podiums",
         features: [
-          "5 Majestic Towers",
-          "61 Harmonic Floors",
-          "Sky-Lounge",
-          "7.19 Acres",
-          "36,000* Sqft/Apartment "
+          "70% open spaces",
+          "70% open spaces",
+          "70% open spaces",
+          "3 Majestic Towers rising G + 9 floors",
+          "Neoclassical Architecture",
+          "24,000 sq ft Clubhouse",
+          "International-style car-free podiums"
         ],
       }
     },
