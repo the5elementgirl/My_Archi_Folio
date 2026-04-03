@@ -121,7 +121,7 @@ export default function AboutMe() {
               {/* <img src="https://images.seeklogo.com/logo-png/41/2/v-ray-logo-png_seeklogo-411793.png" className="h-20 w-20 mx-4 my-4" alt="V-Ray" /> */}
               {/* <img src="https://wp-cdn.pugetsystems.com/2022/08/Enscape-Logo-Icon.png" className="h-20 w-20 mx-4 my-4" alt="Enscape" /> */}
               <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" className="h-20 w-20 mx-4 my-4" alt="Figma" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png" className="h-20 w-20 mx-4 my-4" alt="Photoshop" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/960px-Adobe_Photoshop_CC_icon.svg.png?_=20200616073617" className="h-20 w-20 mx-4 my-4" alt="Photoshop" />
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/f/fb/20251029195728%21Adobe_Illustrator_CC_icon.svg/120px-Adobe_Illustrator_CC_icon.svg.png" className="h-20 w-20 mx-4 my-4" alt="Illustrator" />
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/960px-Adobe_InDesign_CC_icon.svg.png?20210519032020" className="h-20 w-20 mx-4 my-4" alt="InDesign" />
               {/* ... Add other icons as needed following the same pattern */}
